@@ -5,7 +5,13 @@ var Estralurtarra= function Estralurtarra(izena){
     var osasuna = 150;
 
 		Jokalari.apply(this, [izena, indarra, osasuna]);
+    
+    this.izenaBistaratu = function() {
+      return this.izena.split("").reverse().join("");
+    };
 
 }
+
+
 	Estralurtarra.prototype = new Jokalari();
 	Estralurtarra.prototype.constructor = Makina;
