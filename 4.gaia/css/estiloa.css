@@ -45,10 +45,9 @@ main {
   margin-right: auto;
 }
 .Gaur{
-  margin-top: 12px;
   font-size: 14px;
-  float: left;
-  width: 100%;
+  float: right;
+  width: 20%
 }
 .Bihar{
   margin-top: 12px;
@@ -70,4 +69,19 @@ main {
 .weather__location {
   font-weight: 300;
   font-size: 1.5em;
+}
+.icon{
+  font-size: 14px;
+  float: left;
+  width: 20%
+}
+.description{
+  font-size: 14px;
+  display: inline-block;
+  width: 20%
+}
+.tenperatura{
+  font-size: 20px;
+  display: inline-block;
+  width: 20%
 }
